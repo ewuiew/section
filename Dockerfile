@@ -3,7 +3,7 @@ FROM alpine:edge
 ARG AUUID="928a38e1-143b-4eab-b95e-12ae5c8a59f3"
 ARG CADDYIndexPage="https://github.com/happyevero/Html/raw/main/RECIPES-html.zip"
 ARG ParameterSSENCYPT="chacha20-ietf-poly1305"
-ARG PORT=8080
+ARG PORT=8001
 
 ADD etc/Caddyfile /tmp/Caddyfile
 ADD etc/config.json /tmp/config.json
