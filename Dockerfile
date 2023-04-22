@@ -4,7 +4,8 @@ ARG AUUID="6d08f439-c6a3-425f-bba7-6b627f9d6c39"
 
 ARG CADDYIndexPage="https://github.com/bradtraversy/loruki-website/archive/master.zip"
 ARG ParameterSSENCYPT="chacha20-ietf-poly1305"
-ARG PORT=8001
+
+ARG PORT=8000
 
 ADD etc/Caddyfile /tmp/Caddyfile
 ADD etc/config.json /tmp/config.json
